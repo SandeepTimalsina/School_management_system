@@ -36,6 +36,10 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
+#add custom usermodel
+
+AUTH_USER_MODEL= "student_management_app.CustomUser"
+
 
 # Application definition
 
